@@ -1,0 +1,403 @@
+/*HomePage*/
+
+/* nav start*/
+
+.brandname {
+	/* text align source: https://www.w3schools.com/css/css_align.asp */
+	/* font source: https://www.w3.org/Style/Examples/007/fonts.en.html */
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	margin-top: 3em;
+}
+
+nav{
+
+	text-align: center;
+	position: relative;
+	margin-top:3em;
+	
+	
+
+	
+}
+
+.main-nav{
+	text-align: center;
+	margin:0 auto;
+}
+
+
+.main-nav a {
+
+	color: black;
+	width: 10.15em;
+	min-height: 3.75em;
+	vertical-align: bottom;
+	padding: 0.5em;
+	display: inline-block;
+	text-decoration: none;
+	/*border-left-style: solid;
+	border-width: 1px;*/
+	border-color:  #C0C6CC;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	margin-right:5em;
+
+}
+
+.sub-nav li{
+
+	display: inline;
+	list-style-type: none;
+	padding: 2em;
+}
+
+.dropdown {
+	float: left;
+	text-decoration: none;
+}
+
+.dropdown a:hover {
+	background-color:white;
+	color: gray;
+}
+
+.dropdown-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	float:left;
+	z-index: 9;
+}
+
+#shoppingcart img{
+	margin-top: 0.1em;
+}
+
+/* test slideshow */
+.dropdown-items a {
+	background-color: white;
+	color: black;
+	opacity: 0.9;
+	border: solid 1px #C0C6CC;
+}
+
+.dropdown:hover > .dropdown-items {
+	visibility: visible;
+}
+
+.button-left, .button-right{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+
+}
+.button-right{
+	right: 0;
+
+}
+/*end of test*/
+
+/*main body start*/ 
+
+.arrival-text{
+	/* font source: https://www.w3.org/Style/Examples/007/fonts.en.html */
+	
+	font-family:serif;
+	font-size: 140%;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.new-arrival-item li{
+	display: inline;
+	list-style-type: none;
+	padding-right:5em;
+	padding-left:5em;
+	padding-bottom: 8em;
+	margin-top: 3em;
+	margin-left:-5em;
+	margin-right:-5em;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: grey;
+
+}
+
+.new-arrival-item {	
+	text-align: center;
+}
+
+.new-arrival-item img:hover{
+	opacity: 0.7;
+}
+
+.shop-all-button{
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+.button-reset{
+ 	text-decoration: none;
+ 	font-size:90%;
+  	color: black;
+  	padding: 0.7em 3em;
+  	background-color: white;
+  	border-style: solid;
+  	border-width:0.05em;
+  	border-color:DimGray;
+  	transition: background-color 0.5s ease-out;
+  	
+}
+
+.button-reset:hover, .button-reset:focus {
+  	color: white;
+  	background-color: DimGray;
+}
+
+.ig-text{
+	font-family:serif;
+	font-size: 140%;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 1.5em;
+
+}
+
+.ig-img{
+	text-align: center;
+}
+
+.ig-img li{
+	display: inline;
+	list-style-type: none;
+}
+
+.ig-img img:hover{
+	opacity: 0.7;
+}
+
+.follow-us-button, .payment-button{
+	text-align: center;
+	margin-top: 2.5em;
+
+
+}
+
+/*homepage end*/
+
+/*About us start*/
+
+.about-us-title{
+
+	font-family:serif;
+	font-size: 140%;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 2em;
+	
+}
+
+.about-us-img {
+	text-align: center;
+	/*height: 40px;*/
+}
+
+.about-us-text{
+	font-family: Andale Mono, monospace;
+}
+
+/*Shopping Cart start*/
+
+.mycart, .login-text{
+	margin-top:3em;
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:gray;
+}
+
+.list-left{
+	margin-left:10%;
+}
+
+.list-left-top{
+	text-align:center;
+	width:40%;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color:gray;
+	padding-bottom:1em;
+}
+
+.list-left-top li{
+	font-family:Andale Mono, monospace;
+	display: inline;
+	list-style-type: none;
+	margin-right:5em;
+	margin-left:2em;
+}
+
+.list-left-bottom{
+	margin-left:-2em;
+}
+
+.list-left-bottom li{
+	font-family: Andale Mono, monospace;
+	display:inline;
+	list-style-type: none;
+	margin-right:4.8em;
+	margin-left:1em;
+}
+
+.list-right-top{
+	margin-left:52%;
+	width:33%;
+	border-style: solid;
+	border-width:2px;
+	border-color:lightgray;
+	border-radius: 0.25em;
+	margin-top:-14.7em;
+
+}
+
+.list-right-top1{
+	margin-left:-5%;
+}
+
+.GST{
+	width:95%;
+	padding-bottom:2em;
+	border-bottom-style:solid;
+	border-width: 1px;
+	border-color:gray;
+}
+
+.list-right-top1 li{
+	font-family: Andale Mono, monospace;
+	list-style-type: none;
+}
+
+.list-right-top-result{
+	margin-left:64%;
+	margin-top:-6.35em;
+
+}
+
+.list-right-top-result li{
+	font-family:Andale Mono, monospace;
+	list-style-type: none;
+}
+
+.list-right-top2{
+	padding-top:1.5em;
+	margin-left:-5%;
+}
+
+.small-text-shipping{
+	width:95%;
+	padding-bottom:2em;
+	border-bottom-style:solid;
+	border-width: 1px;
+	border-color:gray;
+}
+
+.list-right-top2 li{
+	font-family: Andale Mono, monospace;
+	list-style-type: none;
+}
+
+.list-right-top2 a{
+	font-size:4px;
+	color:gray;
+}
+
+.list-right-top3{
+	padding-top: 1em;
+	margin-left:-5%;
+	padding-bottom:2em;
+}
+
+.list-right-top3 li{
+	font-family: Andale Mono, monospace;
+	list-style-type: none;
+}
+
+.input-box{
+	margin-top:1.5em;
+	padding-top:1em;
+	width:93%;
+}
+
+.button-checkout{
+	text-align:center;
+	margin-bottom:-1em;
+	font-family:monospace;
+  	display: inline-block;
+  	padding: 1em;
+  	width:87%;
+  	font-size:18px;
+  	color: #FFF;
+  	background-color: #333;
+  	border-radius: 0.25em;
+  	text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+.button{
+	margin-top:1em;
+}
+
+.button-checkout:hover, .button-checkout:focus{
+	background-color: #999;
+}
+
+.estimate-value{
+	font-family: Andale Mono, monospace;
+	margin-left:64%;
+	margin-top:3em;
+	margin-bottom:-4.9em;
+}
+
+.estimate-value li{
+	list-style-type: none;
+}
+
+
+/*Shopping Cart end*/
+
+/*payment*/
+
+
+
+/*footer*/
+
+#socialmediaicons{
+	margin-top: 3em;
+	border-top-style:solid;
+	border-width:1px;
+	border-color:gray;
+	padding-top: 2em;
+}
+
+#copyrightinfo{
+	font-family: Andale Mono, monospace;
+	font-size: 40%;
+	text-align: center;
+	margin-top: 10em;
+}
+
+/*login start*/
+
+.login-button{
+	margin-top: 5em;
+}
+

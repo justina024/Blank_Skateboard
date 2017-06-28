@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+
+meta{
+	display:none;
+}
+
+.container .s1{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s2{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s3{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s4{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s5{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s6{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s7{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s8{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.container .s9{
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin-top:50px;
+  margin-left: 50px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.grid-row::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media(min-width: 30em){
+	.grid-col-1of5{
+		width: 20%;
+	}
+}
+
+@media(max-width: 30em){
+	.grid-col-1of5{
+		width: 100%;
+	}
+}
