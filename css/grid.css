@@ -7,6 +7,86 @@ meta{
 	display:none;
 }
 
+
+@media(max-width: 85em){
+  .list-left-top li{
+    margin-right:4em;
+    margin-left:1em;
+  }
+
+  .list-left-bottom li{
+    margin-right:3.7em;
+    margin-left:1em;
+  }
+}
+
+
+@media(max-width: 72em){
+
+  /* CODE ADDED FOR SKATEBOARD*/
+  .product{
+    margin-top:5.5em;
+    margin-left:27%;
+  }
+
+  .product img{
+    width:50%;
+    height:50%;
+  }
+
+  .product h3{
+    margin-top:25em;
+    margin-left:-10em;
+  }
+
+  .product h4{
+    margin-left:-11.5em;
+  }
+
+  .dropdown-product{
+    margin-left:-11.5em;
+  }
+
+/*END*/
+
+  .list-left-top{
+    width:80%;
+  }
+
+  .list-left-top li{
+    margin-right:5em;
+    margin-left:5em;
+  }
+
+  .list-left-bottom{
+    text-align: center;
+    width:80%;
+  }
+
+  .list-left-bottom li{
+    margin-right:5em;
+    margin-left:3em;
+  }
+
+  .list-left-bottom img{
+    width:180px;
+    height:180px;
+  }
+
+  .list-right{
+    margin-top:20em;
+    margin-left:-90%;
+  }
+
+  .list-right-top{
+    width:40%;
+  }
+
+  .list-right-top1, .list-right-top2, .list-right-top3{
+    margin-left:1%;
+  }
+}
+
 .container .s1{
   height: 300px;
   width: 200px;
