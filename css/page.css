@@ -18,20 +18,18 @@
   color: white;
   background-color: DimGray;
 }
-
-.product img{
-  float:left;
-  padding-left: 100px;
+.product{
+  margin-top: 2em;
 }
-.product-info{
+.product img{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 50px;
+}
 
-  height: 300px;
-  width: 300px;
-  float: right;
-  margin-top:50px;
-  margin-right: 300px;
-  background-color: white;
-  border-style: none;
+.product-info{
+  display: inline-block;
+  margin-left: 50px;
 }
 
 .dropbtn {
