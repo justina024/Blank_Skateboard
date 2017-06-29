@@ -19,8 +19,9 @@
   margin-top: 2em;
 }
 .product img{
-<<<<<<< Updated upstream
+
   display: inline-block;
+  margin-top:5em;
   margin-right: 10px;
   margin-left: 50px;
 }
@@ -28,7 +29,6 @@
 .product-info{
   display: inline-block;
   margin-left: 50px;
-=======
     position:relative;
 
     margin-top:3em;
@@ -44,7 +44,6 @@
 
 .Add-to-cart{
   margin-top:10em;
->>>>>>> Stashed changes
 }
 
 .dropbtn {
@@ -55,7 +54,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
-    border-style: : solid;
+    border-style: solid;
     border-color: DimGrey;
     border-width: 0.8px;
     cursor: pointer;
