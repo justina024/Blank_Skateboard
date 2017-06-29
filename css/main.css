@@ -8,6 +8,13 @@
 	text-align: center;
 	font-family: Andale Mono, monospace;
 	margin-top: 3em;
+
+}
+
+/* NEED TO BE ADDED*/
+.brandname a{
+	text-decoration: none;
+	color: black;
 }
 
 nav{
@@ -15,10 +22,7 @@ nav{
 	text-align: center;
 	position: relative;
 	margin-top:3em;
-	
-	
-
-	
+	margin-left: 10em;
 }
 
 .main-nav{
@@ -36,8 +40,6 @@ nav{
 	padding: 0.5em;
 	display: inline-block;
 	text-decoration: none;
-	/*border-left-style: solid;
-	border-width: 1px;*/
 	border-color:  #C0C6CC;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
@@ -62,6 +64,7 @@ nav{
 	color: gray;
 }
 
+/*  CAN BE DELECT*/
 .dropdown-items {
 	list-style: none;
 	margin: 0;
@@ -72,8 +75,15 @@ nav{
 	z-index: 9;
 }
 
+#login a{
+	text-decoration: none;
+	color: black;
+}
+
+
 #shoppingcart img{
 	margin-top: 0.1em;
+	
 }
 
 /* test slideshow */
@@ -194,28 +204,115 @@ nav{
 
 /*About us start*/
 
-.about-us-title{
-
-	font-family:serif;
-	font-size: 140%;
-	font-weight: 100;
-	text-align: center;
-	margin-top: 2em;
-	
-}
 
 .about-us-img {
 	text-align: center;
 	/*height: 40px;*/
 }
 
-.about-us-text{
-	font-family: Andale Mono, monospace;
+.about-us-text p{
+	margin-left: 28%;
+	margin-top: 4.5em;
+	width: 50%;
+
 }
+
+
+/*Login Start*/
+
+
+
+.login-username{
+	position: relative;
+	display: block;
+	list-style-type: none;
+}
+
+.login-password{
+	list-style-type: none;
+
+}
+
+/*
+.login-button{
+	margin-left: 15%;
+}*/
+
+.login-info{
+
+	position: relative;
+	margin-left: 35%;
+	margin-top: 3em;
+	padding-bottom: 2em;
+	width:31%;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: grey;
+
+}
+
+
+.login-info input{
+	margin-top: 0.5em;
+	 
+}
+
+.login-username p{
+	margin-top: -2.5em;
+	margin-left: 6.8em;
+	color: red;
+}
+
+.login-password p{
+	margin-top: -1.45em;
+	margin-left: 4.7em;
+	color: red;
+}
+
+.login-button{
+	list-style-type: none;
+}
+
+.login-forgotpassword{
+	font-size: 80%;
+	color: blue;
+	margin-top: -2em;
+	margin-left: 13em;
+}
+
+.login-forgotpassword:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.login-forgotpassword-text p, .register-text p{
+	text-align: center;
+}
+
+.register{
+	margin-left: 38%;
+}
+
+.login-username li{
+	margin-top: 1em;
+}
+
+/*
+.register-text {
+	font-size: 120%;
+	margin-top: 3em;
+}*/
+
+.forgot-password-info{
+	margin-left: 35%;
+	margin-top: 2em;
+}
+
+/*Login End*/
 
 /*Shopping Cart start*/
 
-.mycart, .login-text{
+.mycart, .login-text, .about-us-title{
 	margin-top:3em;
 	text-align: center;
 	font-family: Andale Mono, monospace;
@@ -241,19 +338,20 @@ nav{
 	font-family:Andale Mono, monospace;
 	display: inline;
 	list-style-type: none;
-	margin-right:5em;
+	margin-right:4.5em;
 	margin-left:2em;
 }
 
 .list-left-bottom{
 	margin-left:-2em;
+	width:40%;
 }
 
 .list-left-bottom li{
 	font-family: Andale Mono, monospace;
 	display:inline;
 	list-style-type: none;
-	margin-right:4.8em;
+	margin-right:4.5em;
 	margin-left:1em;
 }
 
@@ -342,7 +440,7 @@ nav{
 	font-family:monospace;
   	display: inline-block;
   	padding: 1em;
-  	width:87%;
+  	width:93%;
   	font-size:18px;
   	color: #FFF;
   	background-color: #333;
@@ -376,11 +474,79 @@ nav{
 
 /*payment*/
 
+.main-body-payment{
+	margin-top:5em;
+	margin-left:37%;
+}
 
+.payment-button{
+	margin-top:5em;
+	margin-left:-73%;
+}
+
+.payment-process p{
+	margin-top:-0.5em;
+}
+
+#form-cardholder{
+	margin-top:1em;
+}
+
+#form-cardnumber{
+	margin-bottom:1em;
+}
+
+.desktop-cardicon{
+	margin-left:0.5em;
+}
+
+#creditcardtypes{
+	margin-top:0.5em;
+	margin-bottom:1em;
+}
+
+#expirydateinput{
+	margin-top:0.5em;
+}
+
+#form-securitycode{
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+/*payment end*/
+
+/*payment confirm*/
+
+.main-body-payment-confrim{
+	font-family: Andale Mono, monospace;
+	margin-top:3em;
+	text-align: center;
+}
+
+.payment-complete{
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:gray;
+
+}
+
+.payment-progress{
+	margin-top:2em;
+	margin-bottom:5em;
+}
+
+/*payment confrim end*/
+
+.references-list{
+	color: blue;
+
+}
 
 /*footer*/
 
 #socialmediaicons{
+	text-align: center;
 	margin-top: 3em;
 	border-top-style:solid;
 	border-width:1px;
@@ -392,12 +558,12 @@ nav{
 	font-family: Andale Mono, monospace;
 	font-size: 40%;
 	text-align: center;
-	margin-top: 10em;
+	margin-top: 6em;
 }
 
 /*login start*/
 
 .login-button{
-	margin-top: 5em;
+	margin-top: 4em;
 }
 
