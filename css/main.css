@@ -321,6 +321,19 @@ nav{
 	border-color:gray;
 }
 
+.skateboards-title, .asscssories-wheels, .asscssories-helmet{
+	margin-top:3em;
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:gray;
+}
+
+.asscssories-helmet{
+	margin-top: -3em;
+}
+
 .list-left{
 	margin-left:10%;
 }
