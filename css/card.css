@@ -134,7 +134,8 @@ button{
 }
 
 .container p{
-  margin-left:6.3em;
+  text-align: center;
+  margin-top: -0.5em;
 }
 
 /*.container .s3 p{

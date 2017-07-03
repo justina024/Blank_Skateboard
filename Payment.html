@@ -66,35 +66,35 @@
 
 				<table class="paymentsummary">
 					<tr>
-					    <td>Totel Amount</td>
+					    <td>Total Amount</td>
 					    <td>$110.00</td>
 					</tr>
 
 				</table>
 
 		
-				<form method="post" action="ParkingTicketProcessStep5.html" class="parkingform">
+				<div class="payingform">
 
-					<label for="form-cardholder">Cardholder Name</label>
-					<input style="height: 30px; width: 250px;" type="text" id="form-cardholder" placeholder="e.g. FirstName LastName"><br>
 
-					<div class="payment-img">
-					<label>Select Credit Card</label>
+						<label for="form-cardname">Cardholder Name</label>
+						<input style="height: 30px; width: 230px;" type="text" id="form-cardname" placeholder="e.g. FirstName LastName"><br>
 
-					<!-- source: https://www.iconfinder.com/icons/406085/card_credit_master_mastercard_icon#size=512 -->
-					<img src="img/mastercard.png" width="32" height="32" alt="MasterCard" class="desktop-cardicon">
+						<div class="payment-img">
+						<p>Select Credit Card</p>
 
-					<!-- source: https://www.iconfinder.com/icons/406088/card_credit_visa_icon#size=512-->
-					<img src="img/visa.png" width="35" height="35" alt="Visa" class="desktop-cardicon">
+					
+						<img src="img/mastercard.png" width="32" height="32" alt="MasterCard" class="desktop-cardicon">
 
-					<!-- source: https://www.iconfinder.com/icons/406086/american_amex_card_credit_express_icon#size=512-->
-					<img src="img/amex.png" width="32" height="32" alt="AmericanExpress" class="desktop-cardicon">
-					</div>
+					
+						<img src="img/visa.png" width="35" height="35" alt="Visa" class="desktop-cardicon">
 
+					
+						<img src="img/amex.png" width="32" height="32" alt="AmericanExpress" class="desktop-cardicon">
+						</div>
 
 
 					<div id="creditcardtypes">
-						<select>
+						<select title="payment">
 							<option value="BC">MasterCard</option>
 							<option value="AB">Visa</option>
 							<option value="AB">American Express</option>
@@ -104,11 +104,11 @@
 					<label for="form-cardnumber">Credit Card Number</label>
 					<input style="height: 30px; width: 230px;" type="text" id="form-cardnumber" placeholder="e.g. 1234567812345678"><br>
 
-					<label>Expiry Date</label>
+					<p>Expiry Date</p>
 
 					<div id="expirydateinput">
-						<input style="height: 30px; width: 50px;" type="text" class="form-expirydate" placeholder="MM"> /
-						<input style="height: 30px; width: 50px;" type="text" class="form-expirydate" placeholder="YYYY"><br>
+						<input style="height: 30px; width: 50px;" type="text" class="form-expirydate" placeholder="MM" title="expirydateinput">
+						<input style="height: 30px; width: 50px;" type="text" class="form-expirydate" placeholder="YYYY" title="expirydateinput"><br>
 					</div>
 
 					<label for="form-securitycode">Card Security Code</label>
@@ -121,7 +121,8 @@
 						
 					</div>
 
-				</form>
+				
+				</div>
 			</div>
 
 		</div>	
