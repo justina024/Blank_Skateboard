@@ -27,32 +27,6 @@ button{
   transition: background-color 0.5s ease-out;
 }
 
-.nav-bar{
-  border-style:solid;
-  border-color: black;
-  border-width:0.05em;
-  padding-bottom: 0.3em;
-  padding-top :0.5em;
-  padding-left:1.5em;
-  padding-right:1.5em;
-}
-.nav-bar .main-nav{
-  font-family: Avenir;
-  color:black;
-  display: inline;
-  border-style:none;
-  text-decoration: none;
-  padding-bottom: 0.3em;
-  padding-top :0.5em;
-  padding-left:1.5em;
-  padding-right:1.5em;
-}
-
-
-.search{
-	width:200px;
-	height:30px;
-}
 
 .container{
   margin-top: 2em;
@@ -76,7 +50,7 @@ button{
   text-decoration: none;
   color: black;
   margin-top: 3rem;
-  margin-left: 3.2rem;
+  margin-left: 3.5rem;
   padding: 0.5em 0.9em;
   background-color: white;
   border-style: solid;
@@ -167,7 +141,7 @@ button{
   text-decoration: line-through;
 }*/
 
-.container .onsale p{
+/*.container .onsale p{
    margin-right:1em;
   text-decoration:none;
   color: red;
@@ -176,4 +150,31 @@ button{
 .display{
   display: inline-block;
   vertical-align: top;
+}
+*/
+@media(max-width: 64em){
+  .container{
+    margin-top: 2em;
+    margin-bottom:10em;
+    margin-right:2em;
+    margin-left:2em;
+  }
+}
+
+@media(max-width: 50em){
+  .container{
+    margin-top: 2em;
+    margin-bottom:10em;
+    margin-right:2em;
+    margin-left:2em;
+  }
+}
+
+@media(max-width: 40em){
+  .container{
+    margin-top: 2em;
+    margin-bottom:10em;
+    margin-right:2em;
+    margin-left:2em;
+  }
 }

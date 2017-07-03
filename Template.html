@@ -8,7 +8,9 @@
     <title>P02 Company </title>
 
     <link href="css/stylemain.css" rel="stylesheet">
+    <link href="css/stylegrid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
 
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     
@@ -18,7 +20,7 @@
 
   <body>
 
-    <h2>P02: Company</h2>
+    <h1>P02: Company</h1>
 
     <p>Style Guide</p>
 
@@ -41,14 +43,14 @@
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
-        <p>.button-checkout</p>
+        <p>.add-button</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a class="button-checkout" href="Payment.html"&gt;CHECKOUT&lt;/a&gt;</code>
+        <code>&lt;a class="add-button" href="Payment.html"&gt;CHECKOUT&lt;/a&gt;</code>
 
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">CHECKOUT</a>
+        <a class="add-button" href="#">CHECKOUT</a>
 
       </section>
 
@@ -70,13 +72,13 @@
         <h2>Submit/Reset Buttons</h2>
 
         <h3>CSS selector:</h3>
-        <p>.button-reset</p>
+        <p>.add-button</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;button class = "button-reset"&gt;Submit&lt;/button&gt;</code>
+        <code>&lt;button class = "add-button"&gt;Submit&lt;/button&gt;</code>
 
         <h3>Rendered element:</h3>
-        <button class = "button-reset">Submit</button>
+        <button class = "add-button">Submit</button>
 
       </section>
 
@@ -196,8 +198,9 @@
 
         <h3>Sample code:</h3>
         <code>&lt;li&gt;&lt;a&gt;SKATEBOARDS&lt;/a&gt;&lt;/li&gt;
-        	  &lt;li&gt;&lt;a&gt;ACCESSORIES&lt;/a&gt;&lt;/li&gt;
-        	  &lt;li&gt;&lt;a&gt;SALE&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a&gt;ABOUT US&lt;/a&gt;&lt;/li&gt;</code>
+        	  <br>&lt;li&gt;&lt;a&gt;ACCESSORIES&lt;/a&gt;&lt;/li&gt;<br/>
+        	  &lt;li&gt;&lt;a&gt;SALE&lt;/a&gt;&lt;/li&gt;&lt;li&gt;
+        	  <br>&lt;a&gt;ABOUT US&lt;/a&gt;&lt;/li&gt;<br/></code>
 
         <h3>Rendered element:</h3>
         <ul class = "main-navi">
@@ -210,30 +213,126 @@
       </section>
 
       <section>
+        <h2>About the Company</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.about-us-text</p>
+
+        <h3>Sample code:</h3>
+        &lt;p class="about-us-text"&gt;
+          Blank Skateboards is a Canada-based company founded in 2017 by Justina Chen and Yanto Liang. The boards are using high-quality plastic as the major material which is lightweight and flexible to design. The term “Blank” is synonymous the concept of customizing the skateboard starting from a clean board with creative designs. Blank Skateboards are composed of several different parts such as, deck, wheels, and trucks which are separately made.
+        <br>&lt;/p&gt;<br/>
+
+        <h3>Rendered elements:</h3>
+        <p class="about-us-text">
+          Blank Skateboards is a Canada-based company founded in 2017 by Justina Chen and Yanto Liang. The boards are using high-quality plastic as the major material which is lightweight and flexible to design. The term “Blank” is synonymous the concept of customizing the skateboard starting from a clean board with creative designs. Blank Skateboards are composed of several different parts such as, deck, wheels, and trucks which are separately made.
+        </p>
+        </section>
+
+        <section>
+        <h2>Product Description</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.product-text</p>
+
+        <h3>Sample code:</h3>
+        &lt;p class=product-text&gt;Skateboards are composed of several different parts such as, deck, wheels, and trucks which are separately made. This is a Summer 2017 Collection. We want to give you an energetic summer. Come join us!&lt;/p&gt;
+
+        <h3>Rendered elements:</h3>
+          <p class=product-text>Skateboards are composed of several different parts such as, deck, wheels, and trucks which are separately made. This is a Summer 2017 Collection. We want to give you an energetic summer. Come join us!</p>
+        </section>
+
+      <section>
         <h2>Product Listing</h2>
 
         <h3>CSS selector:</h3>
         <p>.list-product</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;div class ="list-product"&gt;
-        		&lt;img src = "board1.jpg alt ="BlackBoard" width="264" height="384" /&gt;
-        		&lt;img src = "board2.jpg alt ="BlueBoard" width= "264" height ="384" /&gt;
-        		&lt;div class = "board-introduction"&gt;
-        			&lt;p class = "BlackBoard">The Nyjah Huston 8.0 skateboard deck from Element skateboards.&lt;/p&gt;
-        			&lt;p class = "BlueBoard"&gt;A slight concave shape will have you popping tricks with ease with a Torey Pudwill nebula galaxy print Plan B logo graphic for style.&lt;/p&gt;
-        		&lt;/div&gt;
-        	&lt;/div&gt;</code>
+        <code>
+            &lt;div class ="list-product"&gt;
+        		<br>&lt;img src = "board1.jpg alt ="BlackBoard" width="200" height="200" /&gt;<br/>
+        		&lt;img src = "board2.jpg alt ="BlueBoard" width= "200" height ="200" /&gt;
+            <br>&lt;img src = "board3.jpg alt ="BlackBoard" width="200" height="200" /&gt;<br/>
+            &lt;img src = "board4.jpg alt ="BlueBoard" width= "200" height ="200" /&gt;
+            <br>&lt;img src = "wheel1.jpg alt ="BlackBoard" width="200" height="200" /&gt;<br/>
+            &lt;img src = "wheel2.jpg alt ="BlueBoard" width= "200" height ="200" /&gt;
+            <br>&lt;img src = "helmet1.jpg alt ="BlackBoard" width="200" height="200" /&gt;<br/>
+            &lt;img src = "helmet2.jpg alt ="BlueBoard" width= "200" height ="200" /&gt;
+
+        		<br>&lt;/div&gt;<br/>
+        </code>
 
         <h3>Rendered element:</h3>
         <div class ="list-product">
 
 
-        	<img src= "img/board1.jpg" alt="BlackBoard" width="264" height="384" />
-        	<img src= "img/board2.jpg" alt="BlueBoard" width="264" height="384" />
+        	<img src= "img/board1.jpg" alt="BlackBoard" width="200" height="200" />
+        	<img src= "img/board2.jpg" alt="BlueBoard" width="200" height="200" />
+          <img src= "img/board3.jpg" alt="BlackBoard" width="200" height="200" />
+          <img src= "img/board4.jpg" alt="BlueBoard" width="200" height="200" />
+          <img src= "img/wheel1.jpg" alt="BlackBoard" width="200" height="200" />
+          <img src= "img/wheel2.jpg" alt="BlackBoard" width="200" height="200" />
+          <img src= "img/helmet1.jpg" alt="BlueBoard" width="200" height="200" />
+          <img src= "img/helmet2.jpg" alt="BlueBoard" width="200" height="200" />
 
         </div>
 
+      </section>
+
+      <section>
+        <h2>Company Images</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.ig-img</p>
+
+        <h3>Sample code:</h3>
+        <code>
+            &lt;div class="ig-img"&gt;
+          <br>&lt;ul class="ig-img-list"&gt;<br/>
+
+            &lt;li class="ig-img1"&gt;
+              <br>&lt;img src="img/igimg1.png" width="400" height="400" alt="igimage1"&gt;<br/>
+            &lt;/li&gt;
+
+            <br>&lt;li class="ig-img3"&gt;<br/>
+              &lt;img src="img/igimg2.png" width="400" height="400" alt="igimage2"&gt;
+            <br>&lt;/li&gt;<br/>
+
+            &lt;li class="ig-img3"&gt;
+              <br>&lt;img src="img/igimg3.jpg" width="400" height="400" alt="igimage3"&gt;<br/>
+            &lt;/li&gt;
+
+            <br>&lt;li class="ig-img4"&gt;<br/>
+              &lt;img src="img/igimg4.jpg" width="400" height="400" alt="igimage4"&gt;
+            <br>&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+
+        </div>
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="ig-img">
+          <ul class="ig-img-list">
+
+            <li class="ig-img1">
+              <img src="img/igimg1.png" width="400" height="400" alt="igimage1">
+            </li>
+
+            <li class="ig-img3">
+              <img src="img/igimg2.png" width="400" height="400" alt="igimage2">
+            </li>
+
+            <li class="ig-img3">
+              <img src="img/igimg3.jpg" width="400" height="400" alt="igimage3">
+            </li>
+
+            <li class="ig-img4">
+              <img src="img/igimg4.jpg" width="400" height="400" alt="igimage4">
+            </li>
+          </ul>
+
+        </div>
       </section>
 
       <section>
@@ -244,13 +343,13 @@
 
       <h3>Sample Code</h3>
       <code>&lt;div class = "map"&gt;
-        &lt;img src="img/sitemap.jpg" alt="Sitemap" width="1055" height="843.5" /&gt;
+        &lt;img src="img/sitemap.png" alt="Sitemap" width="100%" height="100%" /&gt;
         &lt;/div&gt;</code>
 
       <h3>Rendered Code:</h3>
       
         <div class = "map">
-        <img src="img/sitemap.jpg" alt="Sitemap" width="1055" height="843" />
+        <img src="img/sitemap.png" alt="Sitemap" width="100%" height="100%" />
         </div>
         
         </section>

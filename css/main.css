@@ -90,6 +90,19 @@ nav{
 	margin-top: 2.5em;
 }
 
+.button-back{
+ 	text-decoration: none;
+ 	font-size:90%;
+  	color: black;
+  	padding: 0.7em 3em;
+  	background-color: white;
+  	border-style: solid;
+  	border-width:0.05em;
+  	border-color:DimGray;
+  	transition: background-color 0.5s ease-out;
+  	margin-left: 10em;
+}
+
 .button-reset{
  	text-decoration: none;
  	font-size:90%;
@@ -100,13 +113,24 @@ nav{
   	border-width:0.05em;
   	border-color:DimGray;
   	transition: background-color 0.5s ease-out;
-  	
 }
+
 
 .button-reset:hover, .button-reset:focus {
   	color: white;
   	background-color: DimGray;
 }
+
+.button-back:hover, .button-back:focus {
+  	color: white;
+  	background-color: DimGray;
+}
+
+.button-login:hover, .button-login:focus {
+  	color: white;
+  	background-color: DimGray;
+}
+
 
 .ig-text{
 	font-family:serif;
@@ -156,6 +180,7 @@ nav{
 }
 
 .about-us-text p{
+	font-family:Avenir;
 	margin-left: 28%;
 	margin-top: 4.5em;
 	width: 50%;
@@ -175,6 +200,33 @@ nav{
 
 .login-password{
 	list-style-type: none;
+
+}
+
+.button-login{
+ 	text-decoration: none;
+ 	font-size:90%;
+  	color: black;
+  	padding: 0.7em 3em;
+  	background-color: white;
+  	border-style: solid;
+  	border-width:0.05em;
+  	border-color:DimGray;
+  	transition: background-color 0.5s ease-out;
+}
+
+@media(max-width: 40em){
+    .login-username{
+	margin-left: -4em;
+    }
+
+    .login-password{
+	margin-left: -4em;
+    }
+
+    .button-login{
+    	margin-left: 4em;
+    }
 
 }
 
@@ -225,6 +277,13 @@ nav{
 	margin-left: 13em;
 }
 
+@media(max-width: 45em){
+	.login-forgotpassword{
+		margin-top: 1em;
+		margin-left: 8em;
+
+	}
+}
 .login-forgotpassword:hover{
 	text-decoration: underline;
 	color: black;
@@ -237,6 +296,7 @@ nav{
 .register{
 	margin-left: 38%;
 }
+
 
 .login-username li{
 	margin-top: 1em;
@@ -266,7 +326,7 @@ nav{
 	border-color:gray;
 }
 
-.skateboards-title, .asscssories-wheels, .asscssories-helmet{
+.skateboards-title, .accessories-wheels, .accessories-helmet{
 	margin-top:3em;
 	text-align: center;
 	font-family: Andale Mono, monospace;
@@ -275,8 +335,21 @@ nav{
 	border-color:gray;
 }
 
-.asscssories-helmet{
-	margin-top: -3em;
+.accessories-helmet{
+	margin-top:-3em;
+}
+
+@media(max-width: 50em){
+	.accessories-wheels{
+	margin-top:3em;
+	margin-left:-1.5em;
+}
+
+	.accessories-helmet{
+	margin-top:-3em;
+	margin-left:-2.5em;
+}
+
 }
 
 .list-left{
@@ -432,6 +505,10 @@ nav{
 
 /*payment*/
 
+.payment-img img{
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+}
 .main-body-payment{
 	margin-top:5em;
 	margin-left:37%;
@@ -502,9 +579,43 @@ nav{
 }
 
 .product-text p{
+	font-family:Avenir;
 	margin-top: 2em;
 	margin-bottom: 2em;
 	width: 75%;
+}
+
+@media(max-width: 45em){
+	.product-text p{
+		font-family:Avenir;
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	    width: 120%;
+
+	}
+
+}
+
+@media(max-width: 35em){
+	.product-text p{
+		font-family:Avenir;
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	    width: 160%;
+
+	}
+
+}
+
+@media(max-width: 25em){
+	.product-text p{
+		font-family:Avenir;
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	    width: 220%;
+
+	}
+
 }
 
 /*footer*/
